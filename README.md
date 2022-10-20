@@ -20,7 +20,7 @@ Then the reference systems are assigned according to the DHstd convention.
 
 Obtaining the following DH Parameters:
 
-<p align="center"><img height=200 src="./assets/DHParemeters.PNG" alt="Phantom-X - DH Model" /></p>
+<p align="center"><img height=200 src="./assets/DHParemeters.PNG" alt="Phantom-X - DH Parameters" /></p>
 
 ## Cinematic analysis of the robot with MATLAB
 With the Toolbox of MATLAB and the previously found DH Parameter, a SerialLink object was created as follows
@@ -36,7 +36,7 @@ Robot2=SerialLink(L,'name','R2')
 ```
 Achieving the following DH parameters
 
-<p align="center"><img height=150 src="./assets/DHParemeters2.PNG" alt="Phantom-X - DH Model" /></p>
+<p align="center"><img height=150 src="./assets/DHParemeters2.PNG" alt="Phantom-X - Pose 0" /></p>
 
 With the help of the plot command, the home pose is plotted:
 
@@ -59,4 +59,27 @@ view([47 26])
 
 ```
 
-<p align="center"><img height=600 src="./assets/Pose1.png" alt="Phantom-X - DH Model" /></p>
+<p align="center"><img height=600 src="./assets/Pose1.png" alt="Phantom-X - Pose l" /></p>
+
+In the same way the robot was configured with the following poses
+ - [-pi/9 pi/9 -pi/9 pi/9]  
+<p align="center"><img height=450 src="./assets/Pose2.png" alt="Phantom-X - Pose 2" /></p>
+
+In the same way the robot was configured with the following poses
+ - [pi/6 -pi/6 pi/6 -pi/6]   
+<p align="center"><img height=450 src="./assets/Pose3.png" alt="Phantom-X - Pose 3" /></p>
+
+In the same way the robot was configured with the following poses
+ - [-pi/2 pi/12 -11*pi/36 17*pi/180]  
+<p align="center"><img height=450 src="./assets/Pose4.png" alt="Phantom-X - Pose 4" /></p>
+
+In the same way the robot was configured with the following poses
+ - [-pi/2 pi/4 -11*pi/36 pi/4]
+<p align="center"><img height=450 src="./assets/Pose5.png" alt="Phantom-X - Pose 5" /></p>
+
+
+
+Finally, with the help of the fkine command, the homogeneous matrix of the Phantom-X is found.
+
+<p align="center"><img height=150 src="./assets/MTH.PNG" alt="Phantom-X - MTH" /></p>
+
