@@ -36,4 +36,27 @@ Robot2=SerialLink(L,'name','R2')
 ```
 Achieving the following DH parameters
 
-<p align="center"><img height=700 src="./assets/DHParemeters2.PNG" alt="Phantom-X - DH Model" /></p>
+<p align="center"><img height=150 src="./assets/DHParemeters2.PNG" alt="Phantom-X - DH Model" /></p>
+
+With the help of the plot command, the home pose is plotted:
+
+```matlab
+ws = [-1 15];
+close all
+q1 = [0 0 0 0];
+figure(1)
+Robot2.plot(q1,'notiles','noname');
+hold on
+trplot (eye(3),'rgb','arrows','length',15,'frame','0')
+axis([repmat(ws,1,2) -4 5])
+hold off
+
+xlim([-400 400])
+ylim([-400 400])
+zlim([0 600])
+
+view([47 26])
+
+```
+
+<p align="center"><img height=600 src="./assets/Pose1.png" alt="Phantom-X - DH Model" /></p>
