@@ -6,7 +6,7 @@ Repositoty for practices with a Phantom-X using the laptop keyboard and ROS .
 > - [Camilo Andrés Borda Gil](https://github.com/Canborda) (caabordagi@unal.edu.co)
 > - [Brian Camilo Saiz Cavanzo](https://github.com/briansaiz) (brcsaizca@unal.edu.co)
 
-
+---
 ## Cinematic analysis of the robot
 The first step was take the measurements of the Phantom in the laboratory, obtaining the following results:
  - L1 = 145 [mm]
@@ -22,7 +22,7 @@ Obtaining the following DH Parameters:
 
 <p align="center"><img height=200 src="./assets/DHParemeters.PNG" alt="Phantom-X - DH Parameters" /></p>
 
-## Cinematic analysis of the robot with MATLAB
+### Cinematic analysis of the robot with MATLAB
 With the Toolbox of MATLAB and the previously found DH Parameter, a SerialLink object was created as follows
 
 ```matlab
@@ -83,14 +83,20 @@ Finally, with the help of the fkine command, the homogeneous matrix of the Phant
 
 <p align="center"><img height=150 src="./assets/MTH.PNG" alt="Phantom-X - MTH" /></p>
 
+---
 ##ROS
 
+---
 ##Implemantation
 
 https://user-images.githubusercontent.com/22859451/196862761-99830761-7166-4c9c-af8b-0e0161a49e33.mp4
 
+---
 ##CONCLUSIONS
- - 
- - 
- - 
- - 
+ - The use of ROS and PYTHON to control robots allows to implement complex processes thanks to the community that is around related languages and technologies, opening the opportunity for the interaction with the manipulators not only to stay in the management and control of these, but that the already existing manipulators can be made more flexible or even design and create the same.
+ - The articulation between Dynamixel and the Phantom-X allows to have an approach to robotics without the risks that can arise when handling an industrial robot, such as the IRB140.
+
+ - Tools such as the Dynamixel wizard allow you to control motors from a graphical interface that provides the ability to turn on and turn off, manage the torques as well as configure the angles of the motor, highlighting the required steps, being a fundamental tool when collecting information about each motor in a robot pose. .
+ 
+ - When handling any manipulator, it is essential to know all its characteristics, measurements and capabilities, in particular for this laboratory it was important to know the resolution of the encoder, in order to correctly map the positions.
+
