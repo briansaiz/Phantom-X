@@ -86,7 +86,9 @@ Finally, with the help of the fkine command, the homogeneous matrix of the Phant
 ##ROS
 
 ##Implemantation
-<video src="https://user-images.githubusercontent.com/aaa.mp4"></video>
+<video src="./assets/Lab_4.mp4" data-canonical-src="./assets/Lab_4.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+</video>
+
 ##CONCLUSIONS
  - 
  - 
