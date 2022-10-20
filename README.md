@@ -84,15 +84,15 @@ Finally, with the help of the fkine command, the homogeneous matrix of the Phant
 <p align="center"><img height=150 src="./assets/MTH.PNG" alt="Phantom-X - MTH" /></p>
 
 ---
-##ROS
+## ROS
 
 ---
-##Implemantation
+## Implemantation
 
 https://user-images.githubusercontent.com/22859451/196862761-99830761-7166-4c9c-af8b-0e0161a49e33.mp4
 
 ---
-##CONCLUSIONS
+## CONCLUSIONS
  - The use of ROS and PYTHON to control robots allows to implement complex processes thanks to the community that is around related languages and technologies, opening the opportunity for the interaction with the manipulators not only to stay in the management and control of these, but that the already existing manipulators can be made more flexible or even design and create the same.
  - The articulation between Dynamixel and the Phantom-X allows to have an approach to robotics without the risks that can arise when handling an industrial robot, such as the IRB140.
 
